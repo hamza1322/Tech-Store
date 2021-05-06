@@ -1,0 +1,5 @@
+{
+    "MongoDbURI" : "mongodb+srv://ZakariaRiad:rsWidbJdrXIUJaWO@cluster0.lzdz7.mongodb.net/TECH-STORE_DB?retryWrites=true&w=majority",
+    "jwt" : "sl_myJwtSecret"
+}
+
