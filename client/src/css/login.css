@@ -1,0 +1,77 @@
+.App{
+    height:100%;
+    width: 100%;
+    display: block;
+    text-align: center;
+    z-index:1 ;
+    background-image: url('../img/tech-store-logo.png');
+  }
+  
+  /* parite du logo a gauche */
+  .logo{
+    display: block;
+    height: 100vh;
+    width:50%;
+    position:absolute;
+    background-image: url('../img/tech-store-logo.png');
+    z-index: 1;
+  }
+  
+  /* partie a droite du form */
+  .logForm{
+    display:inline-block;
+    background-color:#fff;
+    height:100vh ;
+    width:50%;
+    position:absolute;
+    z-index: 1;
+  }
+  
+  
+  form{
+    display:block;
+    text-align: center;
+  }
+  
+  
+  input{
+    margin-top: 8%;
+    display: block;
+    margin-left: 25%;
+    border-radius: 3px;
+    padding: 10px 10px;
+    border:1px solid #ccc;
+  }
+  
+  
+  label{
+    line-height: 40px;
+    position: absolute;
+    display: block;
+    color:#1136ff;
+    text-align: center;
+    margin-left: 15%;
+  }
+  
+  span{
+    font-weight: 700;
+  }
+  
+  
+  button{
+    margin-top: 8%;
+    border-radius:3px ;
+    width:41%;
+    margin-left:25% ;
+    display:block;
+    background-color:#1136ff ;
+    color:#ffffff;
+    padding: 10px 10px;
+    border:1px solid #ccc;
+  }
+  
+  
+  h2,p{
+    color:#1136ff;
+    letter-spacing: 0.1em; 
+  }
